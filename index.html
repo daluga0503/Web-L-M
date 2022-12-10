@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Londres</title>
+
+    <!----- enlace de la hoja de estilo    -->
+    <link rel="stylesheet" href="./css/index.css">
+
+    <!----- enlace con el favicon    -->
+    <link rel="shortcut icon" href="./images/favicon2.jpg" type="image/x-icon">
+
+    <!----- enlace con el font awesome   -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</head>
+<body>
+
+    <!---- foto de la index y titulo -->
+    <div id="wrapper">
+        <nav>
+            <div class="topnav" id="myTopnav">
+                <a href="#" class="active">Inicio</a>
+                <a href="#localizacion">Localización</a>
+                <a href="#cultura">Cultura</a>
+                <a href="#turismo">Turismo</a>
+                <a href="#gastronomia">Gastronomía</a>
+                <a href="#contacto">Contacto</a>
+                <!---- este vinculo es para el icono de menu hamgurguesa-->
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+                </a>
+            </div>
+        </nav>
+
+        <section id="hero">
+            <div id="titulo">
+                LONDRES
+            </div>
+        </section>
+        
+
+
+        <!--- vamos a relzar un grid de dos columnas-->
+        <section id="localizacion">
+            <!--- antes del grid -->
+            <div class="titulo-seccion">
+                Localización
+            </div>
+            <!-- div.grid2>div.col2*2 -->
+            <div class="grid2">
+                <div class="col2 imagen">
+                <img src="./images/pexels-ryan-8874803.jpg" alt="localización de Londres">
+                </div>
+                <div class="col2 texto">
+                    Londres se encuentra al noroeste del continente europeo, en la isla de Gran Bretaña. 
+                    La ciudad es la capital de Inglaterra y del Reino Unido. Se sitúa en la orilla del Tamesis.
+                    El núcleo antiguo de la urbe, la City de Londres, conserva básicamente su perímetro medieval de una milla cuadrada.
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="cultura">
+            <div class="titulo-seccion">
+                Cultura
+            </div>
+            <div class="grid3">
+                <div class="col3 texto2">
+                    <p>La cultura británica es muy variada ya que presenta costumbres  como la de tomar un té por la tarde, ir con vestimenta de verano en la mayoría de los días, pedir perdón tanto como si has hecho algo malo o no o tener como centro de reunión los pubs para pasar tiempo con amigos y familiares.<br>Celebran fiestas como la llamada Cheese Rolling consistente en lanzar un queso colina abajo para después tirarse las personas en busca del queso.<br>Es una cultura muy ineteresante que sin ninguna duda te va a llamar la atención.</p>
+
+                </div>
+                <div class="col3 imagen">
+                    <img src="./images/bandera.jpg" alt="bandera">
+                </div>
+            </div>
+        </section>
+
+
+
+        <section id="turismo">
+            <div class="titulo-seccion">
+                Turismo
+            </div>
+
+            <div class="subtitulo">
+                Londrés ofrece imnumerables planes para disfrutar durante su estancia. <br>
+                Aquí van varias sugerencias
+            </div>
+
+            <!-- div.grid4>div.col4*4 -->
+
+            <div class="grid4">
+                <div class="col4">
+                    <div class="card">
+                        <img src="./images/londoneyejpg.jpg " alt="London Eye " height="300" width="300" >
+                        <div class="container">
+                        <h4><b>London<br>Eye</b></h4>
+                        <p>Montate en la noria de Londrés</p>
+                        </div>
+                    </div> 
+                </div>
+                <div class="col4">
+                    <div class="card">
+                        <img src="./images/bristishmuseum.jpg" alt="Bristish Museum" height="300" width="300" >
+                        <div class="container">
+                        <h4><b>Bristish <br>Museum</b></h4>
+                        <p>Visita el Múseo Britnánico</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col4">
+                    <div class="card">
+                        <img src="./images/toweroflondon.jpg" alt="Torre de Londrés" height="300" width="300" >
+                        <div class="container">
+                        <h4><b>Tower of<br>London</b></h4>
+                        <p>Visita The Tower Of London</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col4">
+                    <div class="card">
+                        <img src="./images/parquelondres.jpg" alt="St James Park" height="300" width="300" >
+                        <div class="container">
+                        <h4><b>St James<br>Park</b></h4>
+                        <p>Da un paseo por St James Park</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+
+
+
+
+        <section id="gastronomia">
+            <div class="titulo-seccion">
+                Gastronomia
+            </div>
+
+            <div class="subtitulo">
+                Platos típicos londinenses que debes probar en Londrés
+            </div>
+
+            <div class="contenedor">
+                <div class="tarjeta-contenedor">
+                    <div class="tarjeta">
+                        <div class="adelante card1"></div>
+                        <div class="atras">
+                            <p><strong>Fish and Chips</strong><br> Delicioso pescado frito acompañado de unas patatas fritas al mejor estilo londinense</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-contenedor">
+                    <div class="tarjeta">
+                        <div class="adelante card2"></div>
+                        <div class="atras">
+                            <p><strong>Sunday Roast </strong><br> Increible asado de cerdo acompañado de unas patatas asadas y unas verduras al vapor</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="tarjeta-contenedor">
+                    <div class="tarjeta">
+                        <div class="adelante card3"></div>
+                        <div class="atras">
+                            <p><strong>Bangers and mash</strong><br>Salchicha de cerdo londinensa acompañado de un puré de patatas</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </section>
+
+
+
+
+<section id="contacto">
+        <footer>
+            <div class="grid5">
+                <div class="col5">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d317718.7046847688!2d-0.3824670474346437!3d51.52830633813677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47d8a00baf21de75%3A0x52963a5addd52a99!2sLondres%2C%20Reino%20Unido!5e0!3m2!1ses!2ses!4v1670167760448!5m2!1ses!2ses" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+                <div class="col5">
+                    <a class="enlace" href="#">Inicio</a><br>
+                    <a class="enlace" href="#localizacion">Localización</a><br>
+                    <a class="enlace" href="#cultura">Cultura</a><br>
+                    <a class="enlace" href="#turismo">Turismo</a><br>
+                    <a class="enlace" href="#gastronomia">Gastronomía</a><br>
+                </div>
+                <div class="col5">
+                    <p>Contacta con nosotros</p>
+                    <i class="fa fa-envelope">dluqgal0505@g.educaand.es</i><br>
+                    <i class="fa fa-github"></i><br>
+                    <i class="fa fa-linkedin"></i>
+                </div>
+            </div>
+        </footer>
+    </section>
+
+
+        
+                    
+    
+</body>
+</html>
